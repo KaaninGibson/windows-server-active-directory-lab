@@ -2,7 +2,7 @@
 
 **[View the eight-image Windows Server evidence gallery](docs/screenshot-gallery.md)** — sanitized screenshots with precise validation notes.
 
-A hands-on systems administration lab built with **Hyper-V** and **Windows Server 2022**, simulating a small corporate environment. This portfolio documents identity management, networking, Group Policy, file services, access control, PowerShell automation, and recovery exercises.
+A hands-on systems administration lab built with **Hyper-V** and **Windows Server 2022**, simulating a small corporate environment. This portfolio documents identity management, networking, Group Policy, file services, access control, PowerShell automation, and recorded recovery exercises.
 
 ## Architecture
 
@@ -39,8 +39,8 @@ Specific private lab addressing and configuration details are documented in the 
 - **DNS and DHCP:** Name resolution, forwarders, address allocation, and network validation.
 - **Group Policy:** Workstation baseline and department-specific drive mapping.
 - **File services:** SMB shares, share and NTFS permissions, group-based access using an AGDLP-style approach, and authorized/unauthorized access tests.
-- **Backup and recovery:** Windows Server Backup, an alternate-location AD installation-media restore exercise, AD Recycle Bin object recovery, and lockout-policy validation.
-- **PowerShell:** Documented onboarding, offboarding, and CSV audit workflows. The original scripts are not yet published.
+- **Backup and recovery:** Windows Server Backup initiation is visible in the published evidence. Historical notes describe an alternate-location AD installation-media restore and AD Recycle Bin exercise; completion evidence is not yet published. The displayed test account is not locked out.
+- **PowerShell:** Historical notes describe onboarding, offboarding, and CSV reporting. The original working scripts and execution logs are not published; the available script screenshot does not demonstrate a completed script.
 
 ## Technical documentation
 
