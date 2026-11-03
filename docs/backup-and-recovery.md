@@ -27,8 +27,8 @@ System-state backup is important for protecting Active Directory Domain Services
 
 - Configured Windows Server Backup.
 - Prepared system-state protection.
-- Completed an alternate-location Active Directory installation-media restore test.
-- Recorded backup and restore validation evidence.
+- Historical lab notes report an alternate-location Active Directory installation-media restore exercise; original result evidence is not yet published.
+- The public screenshot captures backup initiation only; a completed backup and successful restore have not been independently established.
 
 ### Recovery Scope
 
@@ -87,8 +87,8 @@ This diagram represents a general recovery workflow, not an exact transcript of 
 | Test | Recorded Outcome |
 | --- | --- |
 | Windows Server Backup configuration | Backup feature installed; backup start captured |
-| Alternate-location AD installation-media restore | Completed |
-| Active Directory Recycle Bin recovery | Completed |
+| Alternate-location AD installation-media restore | Reported in historical notes; original completion evidence unavailable |
+| Active Directory Recycle Bin recovery | Reported in historical notes; original completion evidence unavailable |
 | Account lockout testing | Test user shown with `LockedOut: False`; successful lockout not shown |
 
 The restore and Recycle Bin rows reflect historical notes, not independently verified screenshots in the published gallery. The screenshot of `wbadmin` shows a backup **starting**, not completion.
