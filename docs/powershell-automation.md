@@ -60,9 +60,9 @@ This diagram illustrates the administrative workflow rather than reproducing the
 
 ## Validation
 
-The September 2026 technical portfolio records successful testing of the onboarding and offboarding workflows.
+Historical notes describe onboarding and offboarding testing, but the original script contents and complete execution logs are not available in this repository. A screenshot shows a zero-byte offboarding script file; that image is **not** evidence of a working script.
 
-Validation included:
+The following checks are appropriate to repeat and capture before claiming a verified automation run:
 
 - Checking directory account attributes and placement.
 - Reviewing security group membership.
