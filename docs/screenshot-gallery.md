@@ -1,6 +1,6 @@
 # Windows Server Lab — Screenshot Evidence Gallery
 
-Eight screenshots were selected and privately reviewed for redaction. **The image binaries are not yet hosted in this repository**. The captions below are ready for publication alongside the images when they can be transferred safely. No screenshot is represented as uploaded until it appears in the repository.
+Eight screenshots were selected and privately reviewed for redaction. All eight sanitized PNG images are now hosted in the repository's `evidence/` folder. The screenshots document specific observations, not a claim of production readiness.
 
 | # | Intended image filename | Visible result | Evidence limitation |
 |---|---|---|---|
@@ -15,8 +15,57 @@ Eight screenshots were selected and privately reviewed for redaction. **The imag
 
 ## Security and privacy
 
-The selected copies were cropped or redacted to reduce host, identifier and backup-volume exposure. Fictional lab account names and the lab-only domain remain visible for context. The screenshots should receive a final full-resolution check before publication. Original archives and unsanitized screenshots must remain private.
+The selected copies were cropped or redacted to reduce host, identifier and backup-volume exposure. Fictional lab account names and the lab-only domain remain visible for context. The images were cropped/redacted and reviewed prior to upload, but public GitHub content can be copied or cached; report any remaining exposure immediately. Original archives and unsanitized screenshots must remain private.
 
-## Next publication step
+## Screenshot gallery
 
-Upload the eight approved images to `evidence/` and update this gallery with relative Markdown image references only after the uploads have succeeded. Never replace the evidence with unrelated illustrative screenshots.
+Each image is from the lab and is accompanied by its evidence boundary.
+
+### 1. Hyper-V Manager — DC01 and CLIENT01 running
+
+![Hyper-V Manager — DC01 and CLIENT01 running](../evidence/01_HyperV_Running_VMs.png)
+
+The VMs are shown as running; this does not verify guest or domain health.
+
+### 2. Hyper-V time synchronization setting
+
+![Hyper-V time synchronization setting](../evidence/02_HyperV_Time_Sync.png)
+
+The DC01 integration service reports disabled; domain time hierarchy is not validated by this screenshot.
+
+### 3. Active Directory domain and forest query
+
+![Active Directory domain and forest query](../evidence/03_AD_Domain_Forest.png)
+
+PowerShell reports the lab domain and forest functional levels.
+
+### 4. Disk inventory
+
+![Disk inventory](../evidence/04_Disk_Inventory.png)
+
+An online GPT disk and offline RAW disk are shown; no storage deployment success is implied.
+
+### 5. AD group and test user
+
+![AD group and test user](../evidence/05_AD_User_Group.png)
+
+A lab group and enabled test user are visible; membership is not proven.
+
+### 6. Test account and lockout status
+
+![Test account and lockout status](../evidence/06_Account_Lockout_Test.png)
+
+The displayed account reports `LockedOut: False`; do not describe as a successful lockout.
+
+### 7. Windows Server Backup initiation
+
+![Windows Server Backup initiation](../evidence/07_Backup_Initiation.png)
+
+The backup was started; completion or recovery is not established.
+
+### 8. PowerShell script inspection
+
+![PowerShell script inspection](../evidence/08_PowerShell_Script_Inspection.png)
+
+A script path and inspection commands are visible; execution success is not established.
+
