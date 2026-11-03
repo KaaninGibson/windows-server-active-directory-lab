@@ -1,6 +1,6 @@
 # Windows Server: evidence selection audit
 
-This document records the **curated, private** screenshot candidates selected from the original lab archives. The screenshots in this list are **not uploaded or approved for public display** merely because they appear here. Original archives and unredacted images must remain private.
+This document records the curated evidence selection. Selected screenshot derivatives have now been uploaded to the repository; see the [published gallery](published-evidence-gallery.md). The original archives and unredacted images must remain private. Publication is not a guarantee that every small identifier has been cleared.
 
 | Candidate | Supported observation / limit |
 |---|---|
@@ -24,4 +24,4 @@ Duplicated inventory views, empty Drive Maps editor, unassigned or pending Autop
 
 ## Status
 
-Candidate selection is documented; final full-resolution privacy clearance and image upload have **not** been completed. No claim of successful publication is made here.
+The image upload is complete for the selected set (9 published). The captions and selection notes have been reconciled with the uploaded filenames. Final independent full-resolution privacy certification is **not** claimed; a removed image may persist in Git history.
