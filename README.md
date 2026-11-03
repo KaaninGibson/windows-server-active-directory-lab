@@ -51,6 +51,7 @@ Specific private lab addressing and configuration details are documented in the 
 | [PowerShell automation](docs/powershell-automation.md) | User lifecycle workflows, reporting, and validation |
 | [Backup and recovery](docs/backup-and-recovery.md) | Backup protection, AD recovery exercises, and lockout tests |
 | [Evidence review](docs/evidence-review.md) | Screenshot-by-screenshot verification, limitations, and publication safeguards |
+| [Script evidence audit](docs/script-evidence-audit.md) | Original screenshot references, verified command results, and unverified automation claims |
 
 ## Script examples
 
