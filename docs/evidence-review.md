@@ -87,3 +87,20 @@ The remaining **17 images from the 21-image priority shortlist** were examined i
 - **Exclude from completion galleries:** empty Drive Maps, empty Autopilot list, pending Autopilot profile, and empty Azure resource-group view unless clearly labeled as before/troubleshooting states.
 - **Do not conflate** Intune compliance with encryption proof, report-only Conditional Access with enforcement, Autopilot registration with completed OOBE, or Azure resource creation with operational validation.
 - **Privacy hold:** The priority screenshot set includes visible tenant/user identity details, device identifiers, and Azure subscription context. All screenshots remain unpublished pending full-resolution redaction and reinspection.
+
+## Eight-image private review set — November 2026
+
+Eight cropped/redacted derivatives were prepared for private review. They are **not uploaded to this public repository**. The backup initiation screenshot received an additional full-width redaction over the volume-identifier output line. Screenshots are captioned conservatively:
+
+| Image | What it establishes | What it does not establish |
+| --- | --- | --- |
+| 01 Hyper-V Running VMs | DC01 and CLIENT01 shown Running in Hyper-V | Guest health or production readiness |
+| 02 Hyper-V Time Sync | Time Synchronization integration service disabled for DC01 | Correct domain time-source hierarchy |
+| 03 AD Domain Forest | Domain and forest information returned by PowerShell | Overall AD security posture |
+| 04 Disk Inventory | Disk style, size and online state displayed | Disk redundancy or backup success |
+| 05 AD User Group | Lab group and enabled test-user output | Proven group membership or full onboarding |
+| 06 Account Lockout Test | Commands and test-account lockout-related output | Complete recovery or enterprise lockout policy |
+| 07 Backup Initiation | Windows Server Backup installed; system-state backup started | Completed or restorable backup |
+| 08 PowerShell Script Inspection | Script filename and parser-related commands | Successful automation execution |
+
+**Publication gate:** Before uploading any images, inspect the actual final-resolution derivatives and ensure lab test names are synthetic and no secret, personal identity, environment identifier, or volume GUID remains visible. This table is documentation of the review, **not publication approval or a claim of image upload**.
