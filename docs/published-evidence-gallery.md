@@ -6,7 +6,7 @@ These images were uploaded by the lab owner. Captions describe the observed evid
 
 ![Server Manager roles](../evidence/01_Server_Manager_Roles.png)
 
-Server Manager interface; exact role installation and configuration require corroborating evidence.
+Server Manager shows AD DS, DNS, and File and Storage Services tiles, with a red status indicator on Local Server; this is not a clean health check.
 
 ## 2. Windows services
 
