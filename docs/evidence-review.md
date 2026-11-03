@@ -6,7 +6,7 @@ This page tracks the process for adding **sanitized, verifiable evidence** to th
 
 - Technical documentation is published.
 - The original screenshot archives are **not** published here.
-- A preliminary review identified candidate screenshots, but they have **not** been individually approved for public release.
+- Eight sanitized screenshots were subsequently uploaded to `evidence/` and linked from [the gallery](screenshot-gallery.md). A separate ten-image replacement selection remains private pending review.
 - No screenshot is treated as proof of successful configuration until its visible settings and outcome have been checked.
 
 ## Evidence to prioritize
@@ -40,7 +40,7 @@ This page tracks the process for adding **sanitized, verifiable evidence** to th
 
 ## Publication progress
 
-**Pending:** Individual screenshot inspection, redaction, and approval. No screenshots have been published as part of this review.
+**Published:** Eight sanitized images in `evidence/`. **Pending:** review and approval of the new ten-image shortlist.
 
 
 ## First individual image review (September 6–7, 2026)
@@ -86,11 +86,11 @@ The remaining **17 images from the 21-image priority shortlist** were examined i
 - **Best follow-up candidates for full-resolution review:** BitLocker policy success, LAPS last-rotation page, compliant Intune device, Conditional Access report-only result, Autopilot imported device, and Azure resource inventory.
 - **Exclude from completion galleries:** empty Drive Maps, empty Autopilot list, pending Autopilot profile, and empty Azure resource-group view unless clearly labeled as before/troubleshooting states.
 - **Do not conflate** Intune compliance with encryption proof, report-only Conditional Access with enforcement, Autopilot registration with completed OOBE, or Azure resource creation with operational validation.
-- **Privacy hold:** The priority screenshot set includes visible tenant/user identity details, device identifiers, and Azure subscription context. All screenshots remain unpublished pending full-resolution redaction and reinspection.
+- **Privacy hold:** The priority screenshot set includes visible tenant/user identity details, device identifiers, and Azure subscription context. This was the status of the original shortlist at the time of review. Eight later-sanitized images have since been published.
 
 ## Eight-image private review set — November 2026
 
-Eight cropped/redacted derivatives were prepared for private review. They are **not uploaded to this public repository**. The backup initiation screenshot received an additional full-width redaction over the volume-identifier output line. Screenshots are captioned conservatively:
+Eight cropped/redacted derivatives were prepared for private review. The eight images were **subsequently uploaded** to this public repository. The backup initiation screenshot received an additional full-width redaction over the volume-identifier output line. Screenshots are captioned conservatively:
 
 | Image | What it establishes | What it does not establish |
 | --- | --- | --- |
@@ -103,4 +103,4 @@ Eight cropped/redacted derivatives were prepared for private review. They are **
 | 07 Backup Initiation | Windows Server Backup installed; system-state backup started | Completed or restorable backup |
 | 08 PowerShell Script Inspection | Script filename and parser-related commands | Successful automation execution |
 
-**Publication gate:** Before uploading any images, inspect the actual final-resolution derivatives and ensure lab test names are synthetic and no secret, personal identity, environment identifier, or volume GUID remains visible. This table is documentation of the review, **not publication approval or a claim of image upload**.
+**Current status:** These eight images are published in `evidence/`. Re-review public derivatives for identifiers if any new concern is identified. Future replacement images require separate approval.
