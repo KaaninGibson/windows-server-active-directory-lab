@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project included PowerShell automation for Active Directory user onboarding and offboarding in an isolated Windows Server 2022 lab.
+Historical lab notes describe attempted PowerShell-based Active Directory onboarding and offboarding. The original executable scripts and successful run logs have not been recovered, so this page documents the intended workflow rather than a verified published automation solution.
 
 The goal was to reduce repetitive administrative work, standardize account management, and maintain an audit trail of changes.
 
@@ -69,7 +69,7 @@ The following checks are appropriate to repeat and capture before claiming a ver
 - Confirming account disablement behavior.
 - Reviewing structured CSV audit records.
 
-## Skills Demonstrated
+## Skills Practiced or Documented
 
 - Active Directory administration.
 - PowerShell scripting.
