@@ -18,7 +18,7 @@ These commands are **suggested checks**, not a recovered original execution tran
 
 ## Group Policy and mapped drives
 
-A screenshot of an empty Drive Maps view is **not** proof of drive mapping. Validate the GPO link and security filtering, then check applied policy on CLIENT01 using `gpresult /r` and the actual mapped drives. Test authorized and denied share access using separate nonprivileged departmental test accounts.
+The GPO editor screenshot shows an empty Drive Maps pane, but a separate screenshot (`Screenshot 2026-09-07 045617.png`) shows `gpupdate /force` reporting both computer and user policy updates completed and `Get-PSDrive` listing a mapped `T:` FileSystem drive rooted at `\\FS01\IT`. This supports a client-side drive mapping at that moment; it does not by itself establish the GPO item configuration or effective permission boundaries. Validate the GPO link and security filtering, then check applied policy on CLIENT01 using `gpresult /r` and the actual mapped drives. Test authorized and denied share access using separate nonprivileged departmental test accounts.
 
 ## Backup and recovery
 
