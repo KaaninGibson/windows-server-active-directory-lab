@@ -63,3 +63,8 @@ The documentation describes completed lab exercises, not a production deployment
 ## Security
 
 This repository represents a simulated environment. Do not publish employer or customer information, passwords, tokens, BitLocker or LAPS recovery material, or other confidential data.
+
+## Related administration labs
+
+- [Microsoft Entra ID & Intune Device Security Lab](https://github.com/KaaninGibson/Microsoft-Entra-Intune-Lab) — endpoint enrollment, compliance, BitLocker policy, Windows LAPS, and Conditional Access report-only evaluation.
+- [Azure Infrastructure Administration Lab](https://github.com/KaaninGibson/Azure-Infrastructure-Lab) — virtual networking, compute, storage, governance, monitoring, and cleanup exercises.
