@@ -1,5 +1,7 @@
 # Windows Server 2022 | Active Directory Administration Lab
 
+**[View the eight-image Windows Server evidence gallery](docs/screenshot-gallery.md)** — sanitized screenshots with precise validation notes.
+
 A hands-on systems administration lab built with **Hyper-V** and **Windows Server 2022**, simulating a small corporate environment. This portfolio documents identity management, networking, Group Policy, file services, access control, PowerShell automation, and recovery exercises.
 
 ## Architecture
