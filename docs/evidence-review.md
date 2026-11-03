@@ -41,3 +41,17 @@ This page tracks the process for adding **sanitized, verifiable evidence** to th
 ## Publication progress
 
 **Pending:** Individual screenshot inspection, redaction, and approval. No screenshots have been published as part of this review.
+
+
+## First individual image review (September 6–7, 2026)
+
+The following four originals were opened individually and reviewed for what is actually visible. They are **not** published as images in this repository.
+
+| Original image | Visible observation | Evidence classification | Publication decision |
+| --- | --- | --- | --- |
+| `Screenshot 2026-09-06 220937.png` | PowerShell output reports Hyper-V VM `DC01` Time Synchronization integration service `Enabled: False`. | **Verified command output** for a single VM setting; not proof of domain time hierarchy correctness. | Candidate after review of surrounding desktop content. |
+| `Screenshot 2026-09-06 223015.png` | Hyper-V Manager lists `DC01` and `CLIENT01` as Running. A host computer name is visible. | **Verified VM running-state screenshot**; does not establish guest service health or FS01 state. | **Redact host name** before publication. |
+| `Screenshot 2026-09-07 042730.png` | Group Policy Management Editor shows an IT Department Drive Mapping GPO, but the selected Drive Maps view says **“There are no items to show in this view.”** | **Incomplete configuration view**; explicitly **not proof** that a mapped drive was configured or applied. | Exclude from success evidence; retain only if documenting troubleshooting or a before-state. |
+| `Screenshot 2026-09-07 054021.png` | PowerShell displays global group `GG_IT_Users` and an enabled AD test user. | **Verified account/group-related output**, but not proof that the shown user belongs to the shown group or that the complete onboarding workflow ran. | Candidate only after review of test-user naming and broader context. |
+
+**Review boundary:** These observations are based on the four actual screenshot files, not inferred from their timestamps or file names. The remaining archive images still require individual inspection before public use. Do not interpret this review as approval to upload the raw archive.
