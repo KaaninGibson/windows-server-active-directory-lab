@@ -2,8 +2,6 @@
 
 **[View the published screenshot evidence gallery](docs/published-evidence-gallery.md)** — 9 screenshots with evidence limitations.
 
-**[View the eight-image Windows Server evidence gallery](docs/screenshot-gallery.md)** — sanitized screenshots with precise validation notes.
-
 A hands-on systems administration lab built with **Hyper-V** and **Windows Server 2022**, simulating a small corporate environment. This portfolio documents identity management, networking, Group Policy, file services, access control, PowerShell automation, and recorded recovery exercises.
 
 ## Architecture
@@ -61,7 +59,7 @@ Specific private lab addressing and configuration details are documented in the 
 
 ## Evidence and scope
 
-This is a personal test environment, not a production deployment. Eight sanitized screenshots are already available in the [evidence gallery](docs/screenshot-gallery.md). Each caption states what the screenshot actually verifies. A new ten-image review set is being prepared privately and has not been published.
+This is a personal test environment, not a production deployment. Nine curated screenshots are published in the [current evidence gallery](docs/published-evidence-gallery.md). An [older eight-image gallery](docs/screenshot-gallery.md) remains available for historical reference; some images overlap. Captions distinguish observed outcomes from unverified work.
 
 **Next improvements:** Validate and publish the original automation scripts, capture completed backup and restore results, and document repeatable validation commands.
 
