@@ -58,9 +58,9 @@ Specific private lab addressing and configuration details are documented in the 
 
 ## Evidence and scope
 
-The documentation describes completed lab exercises, not a production deployment. Screenshots are being reviewed before publication so that credentials, recovery keys, tenant identifiers, and other sensitive details are not exposed. No unreviewed screenshots are included here.
+This is a personal test environment, not a production deployment. Eight sanitized screenshots are already available in the [evidence gallery](docs/screenshot-gallery.md). Each caption states what the screenshot actually verifies. A new ten-image review set is being prepared privately and has not been published.
 
-**Next improvements:** Add sanitized evidence with captions, recover and test original automation scripts, and document repeatable validation commands.
+**Next improvements:** Validate and publish the original automation scripts, capture completed backup and restore results, and document repeatable validation commands.
 
 ## Security
 
