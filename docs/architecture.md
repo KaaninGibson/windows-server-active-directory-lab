@@ -48,7 +48,7 @@ flowchart TD
 - Configured test users and security groups.
 - Implemented password complexity and account lockout policies.
 - Applied and validated a workstation security baseline using Group Policy.
-- Enabled Active Directory Recycle Bin and tested deleted-object recovery.
+- Historical notes describe enabling Active Directory Recycle Bin and a deleted-object recovery exercise; its result is not shown in the published gallery.
 
 ## DNS and DHCP
 
@@ -81,14 +81,14 @@ Group Policy application was validated from the client.
 
 ## Backup and Recovery
 
-- Configured Windows Server Backup for system-state protection.
-- Performed an alternate-location Active Directory installation-media restore test.
+- Installed Windows Server Backup and initiated a system-state backup in the captured session; completion is not shown.
+- Historical notes describe an alternate-location Active Directory installation-media restore exercise; the published gallery does not verify its outcome.
 - Tested recovery of deleted Active Directory objects using Active Directory Recycle Bin.
-- Validated account lockout behavior.
+- Configured and investigated account lockout behavior; the published screenshot shows `LockedOut: False` and does not verify a successful lockout.
 
 ## PowerShell Automation
 
-Created and tested PowerShell workflows for:
+Historical notes describe PowerShell workflows for (original script files and execution results have not been recovered):
 
 - Active Directory user onboarding.
 - Standardized account attributes and OU placement.
