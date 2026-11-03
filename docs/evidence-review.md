@@ -55,3 +55,35 @@ The following four originals were opened individually and reviewed for what is a
 | `Screenshot 2026-09-07 054021.png` | PowerShell displays global group `GG_IT_Users` and an enabled AD test user. | **Verified account/group-related output**, but not proof that the shown user belongs to the shown group or that the complete onboarding workflow ran. | Candidate only after review of test-user naming and broader context. |
 
 **Review boundary:** These observations are based on the four actual screenshot files, not inferred from their timestamps or file names. The remaining archive images still require individual inspection before public use. Do not interpret this review as approval to upload the raw archive.
+
+
+## Expanded candidate review (September 7–10, 2026)
+
+The remaining **17 images from the 21-image priority shortlist** were examined in contact sheets. These are **preliminary visual classifications**, not a full-resolution privacy clearance. They are not yet approved for public image upload.
+
+| Screenshot (2026) | What is visibly supported | Important limitation / decision |
+| --- | --- | --- |
+| Sep 07 20:03:15 | Corporate Device Compliance Policy overview exists in Intune | Configuration/assignment view, not endpoint compliance proof |
+| Sep 07 21:13:36 | Intune policy-setting statuses include several green **Compliant** entries | A settings-status view; verify device context and any noncompliant/error row before publication |
+| Sep 07 21:35:19 | BitLocker device configuration report shows **1 succeeded, 0 error, 0 conflict, 0 in progress** | Useful policy-deployment evidence, but not proof of actual disk encryption state; visible user email must be redacted |
+| Sep 07 21:52:38 | Device configuration policy settings show green succeeded status icons | Inspect individual settings and device assignment at full resolution |
+| Sep 08 00:22:03 | Windows LAPS policy overview and assignment information are visible | Assignment alone does not establish password backup |
+| Sep 08 00:26:03 | Intune device local administrator password page displays a **last password rotation** timestamp | Strong candidate for LAPS management evidence; **do not reveal the password**; review tenant/device details |
+| Sep 08 23:32:24 | Conditional Access policy details explicitly show **Report-only** and require compliant device | Never describe this as an enforced access-blocking policy |
+| Sep 09 01:06:28 | Sign-in Conditional Access results include a successful MFA policy and several **Not applied** results | Shows mixed per-policy results, not blanket enforcement |
+| Sep 09 01:07:41 | Report-only tab shows **Require Compliant Device: Report-only Failure** | Useful evidence of pilot evaluation, **not** evidence that access was blocked |
+| Sep 09 01:50:01 | Windows Autopilot devices page shows **0 items loaded** at that point | A before-state only; exclude as deployment success evidence |
+| Sep 09 01:54:21 | Windows Autopilot devices page shows **1 item loaded**, with a virtual-machine entry | Supports registration/import visibility; does not prove OOBE completion |
+| Sep 09 02:01:14 | CLOUDCLIENT01 device summary displays **Compliant**, **Corporate**, and **Intune** badges | Supports endpoint management/compliance state at that time, not Autopilot provisioning completion |
+| Sep 09 02:01:59 | Windows Autopilot entry shows **Profile status: Pending** | Incomplete state; not proof of successful profile application |
+| Sep 09 18:40:28 | Azure Resource Manager resource-groups view says **No resource groups to display** | Before-state only; not proof of Azure infrastructure deployment |
+| Sep 09 18:50:30 | Azure VM `AZR-LAB-VM01` overview exists, showing **Stopped (deallocated)** | Supports VM resource creation, not a running workload |
+| Sep 10 19:27:15 | Azure recent resources list shows resource groups, VM, network resources, and storage | Resource inventory evidence; review names, subscription details, and provisioning states |
+| Sep 10 19:32:36 | Another Azure recent resources list shows multiple resource types | Corroborating inventory view, not independent validation of security or connectivity |
+
+### Evidence decisions from the expanded review
+
+- **Best follow-up candidates for full-resolution review:** BitLocker policy success, LAPS last-rotation page, compliant Intune device, Conditional Access report-only result, Autopilot imported device, and Azure resource inventory.
+- **Exclude from completion galleries:** empty Drive Maps, empty Autopilot list, pending Autopilot profile, and empty Azure resource-group view unless clearly labeled as before/troubleshooting states.
+- **Do not conflate** Intune compliance with encryption proof, report-only Conditional Access with enforcement, Autopilot registration with completed OOBE, or Azure resource creation with operational validation.
+- **Privacy hold:** The priority screenshot set includes visible tenant/user identity details, device identifiers, and Azure subscription context. All screenshots remain unpublished pending full-resolution redaction and reinspection.
