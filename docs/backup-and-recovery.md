@@ -86,12 +86,12 @@ This diagram represents a general recovery workflow, not an exact transcript of 
 
 | Test | Recorded Outcome |
 | --- | --- |
-| Windows Server Backup configuration | Completed |
+| Windows Server Backup configuration | Backup feature installed; backup start captured |
 | Alternate-location AD installation-media restore | Completed |
 | Active Directory Recycle Bin recovery | Completed |
-| Account lockout testing | Validated |
+| Account lockout testing | Test user shown with `LockedOut: False`; successful lockout not shown |
 
-These outcomes are based on the September 2026 sanitized technical portfolio report.
+The restore and Recycle Bin rows reflect historical notes, not independently verified screenshots in the published gallery. The screenshot of `wbadmin` shows a backup **starting**, not completion.
 
 ## Skills Demonstrated
 
