@@ -83,6 +83,8 @@ This allowed mapped drives to be managed centrally instead of requiring users to
 
 ## Access Validation
 
+A screenshot (`Screenshot 2026-09-07 045617.png`) shows `gpupdate /force` completing and `Get-PSDrive` reporting mapped `T:` rooted at `\\FS01\IT`. This is direct evidence of a client-side drive mapping, but it does not establish all department mappings or authorization tests.
+
 The lab included validation from the Windows client.
 
 | Validation Area | Recorded Result |
