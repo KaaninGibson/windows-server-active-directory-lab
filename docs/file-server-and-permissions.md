@@ -73,7 +73,7 @@ The implementation included:
 - Department-based security groups.
 - Authorized and unauthorized access testing.
 
-The historical portfolio confirms that group-based access was tested successfully. Exact access control entries and permission levels should be documented separately when original configuration evidence is available.
+Historical notes report group-based access testing, but the published screenshots do not independently show the share/NTFS access control entries or both allowed and denied client access. Treat this as a reported exercise pending stronger evidence.
 
 ## Group Policy Drive Mapping
 
@@ -93,7 +93,7 @@ The lab included validation from the Windows client.
 | Unauthorized file access | Denied as expected |
 | Group-based permissions | Validated |
 
-These results are based on the September 2026 sanitized technical portfolio report.
+These results are from historical lab notes; the currently published gallery does not independently demonstrate each result.
 
 ## Administrative Skills Demonstrated
 
