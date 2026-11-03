@@ -1,12 +1,11 @@
-# Reviewed Hyper-V Evidence
+# Windows Server Lab Evidence
 
-Two sanitized image derivatives have been prepared for publication but are **not yet uploaded to this public repository**.
+Eight sanitized PNG screenshots are published in this directory.
 
-| Prepared image | Verified observation | Limitation |
-| --- | --- | --- |
-| `hyperv-running-vms-sanitized.png` | Hyper-V Manager displays DC01 and CLIENT01 as **Running** | Does not establish guest service health, connectivity, or FS01 state |
-| `hyperv-timesync-disabled.png` | PowerShell reports DC01's Hyper-V Time Synchronization integration service **Enabled: False** | Does not establish correct domain NTP hierarchy |
+**[View the screenshot gallery with captions](../docs/screenshot-gallery.md)**
 
-The prepared images and captions are included in the local portfolio handoff bundle. Only upload the sanitized derivatives after final visual approval. **Never upload the raw lab archives.**
+The images show specific configuration states and command output. They do not establish complete backup/restore success, working PowerShell automation, successful account lockout, or production readiness.
 
-See [the evidence review](../docs/evidence-review.md) for the 21-image classification and additional privacy checks.
+A separate ten-image replacement shortlist is under private review. It has **not** been published.
+
+Do not upload original screenshot archives or unredacted credentials, identifiers, or recovery information.
