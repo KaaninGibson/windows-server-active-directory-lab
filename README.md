@@ -64,6 +64,10 @@ The documentation describes completed lab exercises, not a production deployment
 
 This repository represents a simulated environment. Do not publish employer or customer information, passwords, tokens, BitLocker or LAPS recovery material, or other confidential data.
 
+## Additional technical documentation
+
+- [Domain controller validation and troubleshooting](docs/validation-and-troubleshooting.md) — health checks, Group Policy validation, and recovery limitations
+
 ## Related administration labs
 
 - [Microsoft Entra ID & Intune Device Security Lab](https://github.com/KaaninGibson/Microsoft-Entra-Intune-Lab) — endpoint enrollment, compliance, BitLocker policy, Windows LAPS, and Conditional Access report-only evaluation.
