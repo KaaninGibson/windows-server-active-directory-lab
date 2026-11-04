@@ -1,5 +1,17 @@
 # Windows Server 2022 | Active Directory Administration Lab
 
+## At a glance
+
+**Focus:** Windows Server systems administration in an isolated Hyper-V lab.
+
+- Built and documented a simulated AD DS environment with a domain controller, file server, and domain workstation.
+- Configured and examined DNS, DHCP, departmental OUs, security groups, Group Policy, and SMB/NTFS access controls.
+- Captured evidence of a Group Policy refresh and mapped drive, plus Active Directory domain and user/group queries.
+
+**What this demonstrates:** Windows infrastructure setup, identity and access administration, and troubleshooting documentation. **Evidence boundary:** Completed restore testing and end-to-end onboarding automation are not demonstrated by the published artifacts.
+
+**Start here:** [Architecture](docs/architecture.md) · [File-share access tests](docs/file-server-and-permissions.md) · [Screenshot gallery](docs/published-evidence-gallery.md)
+
 **[View the published screenshot evidence gallery](docs/published-evidence-gallery.md)** — 9 screenshots with evidence limitations.
 
 [Published screenshot privacy and integrity review](docs/privacy-and-integrity-review.md) — file hash verification, privacy findings, and historical Git limitations.
